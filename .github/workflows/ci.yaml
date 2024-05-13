@@ -43,6 +43,7 @@ jobs:
       microk8s-snap-channel: 1.29-strict/stable
       juju-agent-version: 3.1.8
       _beta_allure_report: true
+      architecture: arm64
     secrets:
       integration-test: |
         {
