@@ -1518,7 +1518,7 @@ develop = false
 type = "git"
 url = "https://github.com/canonical/data-platform-workflows"
 reference = "test-runners-2"
-resolved_reference = "0b3aabf29f9f80da688aa7967630a84bb6c8a334"
+resolved_reference = "7f5d32407226264cbc49044321186cd598ecbd4a"
 subdirectory = "python/pytest_plugins/github_secrets"
 
 [[package]]
