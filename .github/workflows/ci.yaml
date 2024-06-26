@@ -30,6 +30,7 @@ jobs:
       microk8s-snap-channel: 1.30-strict/stable  # renovate: latest microk8s
       juju-agent-version: 3.4.4
       _beta_allure_report: true
+      _default-runner: '["self-hosted", "linux", "X64", "large", "jammy"]'
     secrets:
       integration-test: |
         {
