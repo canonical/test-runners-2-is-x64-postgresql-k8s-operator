@@ -1,0 +1,18 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.1.8    unsupported  01:35:33Z
+
+App             Version  Status   Scale  Charm           Channel  Rev  Address         Exposed  Message
+postgresql-k8s           waiting    0/3  postgresql-k8s             0  10.152.183.232  no       installing agent
+
+Unit               Workload  Agent       Address      Ports  Message
+postgresql-k8s/0*  waiting   allocating  10.1.63.141         agent initialising
+postgresql-k8s/1   error     lost        10.1.63.139         crash loop backoff: back-off 10s restarting failed container=charm-init pod=postgresql-k8s-1_test(025a326e-3ffe-4185-...
+postgresql-k8s/2   waiting   allocating  10.1.63.140         agent initialising
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+unit-postgresql-k8s-2: 01:35:14 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [4e0c3e] "unit-postgresql-k8s-2" cannot open api: try was stopped
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
