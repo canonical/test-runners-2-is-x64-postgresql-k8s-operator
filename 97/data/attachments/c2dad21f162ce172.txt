@@ -1,0 +1,24 @@
+[32mINFO    [0m integration.test_backups:test_backups.py:87 deleting the previously created backups
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.1.8    unsupported  02:05:06Z
+
+App                       Version  Status   Scale  Charm                     Channel        Rev  Address         Exposed  Message
+postgresql-k8s-gcp        14.11    waiting      2  postgresql-k8s                             1  10.152.183.36   no       installing agent
+s3-integrator                      active       1  s3-integrator             latest/stable   24  10.152.183.152  no       
+self-signed-certificates           active       1  self-signed-certificates  latest/stable  151  10.152.183.54   no       
+
+Unit                         Workload  Agent      Address       Ports  Message
+postgresql-k8s-gcp/0*        active    executing  10.1.227.145         
+postgresql-k8s-gcp/1         waiting   idle       10.1.227.146         awaiting for cluster to start
+s3-integrator/0*             active    idle       10.1.227.136         
+self-signed-certificates/0*  active    idle       10.1.227.137         
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+controller-0: 02:01:38 ERROR juju.worker.caasapplicationprovisioner.runner exited "postgresql-k8s-aws": getting OCI image resources: unable to fetch OCI image resources for postgresql-k8s-aws: application "postgresql-k8s-aws" dying or dead
+unit-postgresql-k8s-gcp-0: 02:04:59 ERROR juju.worker.uniter.context cannot apply changes: creating secrets: Regular expression is invalid: nothing to repeat
+unit-postgresql-k8s-gcp-0: 02:04:59 ERROR juju.worker.uniter.operation hook "certificates-relation-changed" (via hook dispatching script: dispatch) failed: creating secrets: Regular expression is invalid: nothing to repeat
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
