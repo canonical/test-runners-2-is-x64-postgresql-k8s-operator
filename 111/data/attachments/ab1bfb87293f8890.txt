@@ -1,0 +1,23 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.1.8    unsupported  01:40:06Z
+
+App             Version  Status   Scale  Charm           Channel  Rev  Address         Exposed  Message
+postgresql-k8s  14.11    waiting      3  postgresql-k8s             0  10.152.183.224  no       installing agent
+
+Unit               Workload  Agent      Address       Ports  Message
+postgresql-k8s/0   unknown   executing  10.1.163.203         
+postgresql-k8s/1*  waiting   executing  10.1.163.204         (config-changed) awaiting for cluster to start
+postgresql-k8s/2   unknown   executing  10.1.163.205         
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+unit-postgresql-k8s-2: 01:38:40 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [9e58ea] "unit-postgresql-k8s-2" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+unit-postgresql-k8s-1: 01:38:46 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [9e58ea] "unit-postgresql-k8s-1" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+unit-postgresql-k8s-2: 01:38:47 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [9e58ea] "unit-postgresql-k8s-2" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+unit-postgresql-k8s-2: 01:38:56 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [9e58ea] "unit-postgresql-k8s-2" cannot open api: try was stopped
+unit-postgresql-k8s-2: 01:39:05 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [9e58ea] "unit-postgresql-k8s-2" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+unit-postgresql-k8s-2: 01:39:16 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [9e58ea] "unit-postgresql-k8s-2" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
