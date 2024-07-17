@@ -1,0 +1,20 @@
+[32mINFO    [0m integration.ha_tests.test_async_replication:test_async_replication.py:85 Destroying second model
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.1.8    unsupported  01:33:52Z
+
+App             Version  Status   Scale  Charm           Channel  Rev  Address        Exposed  Message
+postgresql-k8s           waiting    0/3  postgresql-k8s             0  10.152.183.67  no       installing agent
+
+Unit               Workload  Agent       Address    Ports  Message
+postgresql-k8s/0*  waiting   allocating  10.1.8.78         agent initialising
+postgresql-k8s/1   waiting   allocating                    installing agent
+postgresql-k8s/2   waiting   allocating  10.1.8.76         agent initialising
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+model-86b889a9-87a1-4bf1-8dfb-2096c9ef4c7a: 01:32:13 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [86b889] "model-86b889a9-87a1-4bf1-8dfb-2096c9ef4c7a" cannot open api: try was stopped
+model-86b889a9-87a1-4bf1-8dfb-2096c9ef4c7a: 01:32:19 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [86b889] "model-86b889a9-87a1-4bf1-8dfb-2096c9ef4c7a" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
