@@ -1,0 +1,12 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.4    unsupported  01:34:23Z
+
+[32mINFO    [0m juju.model:model.py:2098 Deploying local:jammy/postgresql-k8s-1
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+
+[33mWARNING [0m juju.client.connection:connection.py:654 RPC: Connection closed, reconnecting
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
+[31m[1mERROR   [0m juju.client.connection:connection.py:662 RPC: Automatic reconnect failed
