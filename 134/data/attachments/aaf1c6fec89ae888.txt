@@ -1,0 +1,87 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:734 Connecting to existing model microk8s-localhost:test on unspecified cloud
+[32mINFO    [0m juju.model:model.py:2098 Deploying local:jammy/postgresql-k8s-0
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [allocating] waiting: installing agent
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [allocating] waiting: agent initialising
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [allocating] waiting: agent initialising
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] maintenance: installing charm software
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [idle] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.4    unsupported  01:58:58Z
+
+App             Version  Status   Scale  Charm           Channel  Rev  Address         Exposed  Message
+postgresql-k8s  14.12    waiting      1  postgresql-k8s             0  10.152.183.211  no       installing agent
+
+Unit               Workload  Agent  Address      Ports  Message
+postgresql-k8s/0*  waiting   idle   10.1.168.73         awaiting for primary endpoint to be ready
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+model-e78cdb51-601c-4a88-80bb-12e7c18afd23: 01:40:50 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [e78cdb] "model-e78cdb51-601c-4a88-80bb-12e7c18afd23" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+unit-postgresql-k8s-0: 01:42:32 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [e78cdb] "unit-postgresql-k8s-0" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
