@@ -1,0 +1,23 @@
+[33mWARNING [0m juju.model:model.py:1564 relate is deprecated and will be removed. Use integrate instead.
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-test-app/0 [idle] active: 
+  postgresql-k8s/0 [idle] active: Primary
+[32mINFO    [0m integration.relations.test_relations:test_relations.py:72  add relation with modern endpoints
+[33mWARNING [0m juju.model:model.py:1564 relate is deprecated and will be removed. Use integrate instead.
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.4    unsupported  02:47:22Z
+
+App                  Version  Status  Scale  Charm                Channel      Rev  Address         Exposed  Message
+postgresql-k8s       14.12    active      1  postgresql-k8s                      0  10.152.183.176  no       
+postgresql-test-app           active      1  postgresql-test-app  latest/edge  215  10.152.183.98   no       
+
+Unit                    Workload  Agent  Address      Ports  Message
+postgresql-k8s/0*       active    idle   10.1.214.10         Primary
+postgresql-test-app/0*  active    idle   10.1.214.8          
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
