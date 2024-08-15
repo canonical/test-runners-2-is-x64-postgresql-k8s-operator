@@ -1,0 +1,20 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:734 Connecting to existing model microk8s-localhost:test on unspecified cloud
+[32mINFO    [0m juju.model:model.py:2098 Deploying local:jammy/postgresql-k8s-0
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.4    unsupported  02:05:48Z
+
+App             Version  Status   Scale  Charm           Channel  Rev  Address         Exposed  Message
+postgresql-k8s  14.12    waiting    2/3  postgresql-k8s             0  10.152.183.185  no       installing agent
+
+Unit               Workload  Agent       Address      Ports  Message
+postgresql-k8s/0*  waiting   executing   10.1.123.75         (config-changed) awaiting for cluster to start
+postgresql-k8s/1   waiting   allocating                      installing agent
+postgresql-k8s/2   unknown   idle        10.1.123.77         
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+unit-postgresql-k8s-0: 02:00:57 ERROR juju.worker.dependency "api-caller" manifold worker returned unexpected error: [6cf5e5] "unit-postgresql-k8s-0" cannot open api: cannot resolve "controller-service.controller-microk8s-localhost.svc.cluster.local": lookup controller-service.controller-microk8s-localhost.svc.cluster.local: i/o timeout
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
