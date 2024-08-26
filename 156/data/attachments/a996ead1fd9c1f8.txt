@@ -1,0 +1,26 @@
+[32mINFO    [0m juju.model:model.py:2098 Deploying ch:amd64/jammy/self-signed-certificates-155
+[33mWARNING [0m juju.model:model.py:1564 relate is deprecated and will be removed. Use integrate instead.
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s/0 [allocating] waiting: installing agent
+  postgresql-k8s/1 [allocating] waiting: installing agent
+  postgresql-k8s/2 [allocating] waiting: installing agent
+  self-signed-certificates/0 [allocating] waiting: installing agent
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.4    unsupported  02:32:17Z
+
+App                       Version  Status   Scale  Charm                     Channel        Rev  Address         Exposed  Message
+postgresql-k8s                     waiting      3  postgresql-k8s                             0  10.152.183.221  no       installing agent
+self-signed-certificates           waiting      1  self-signed-certificates  latest/stable  155  10.152.183.30   no       installing agent
+
+Unit                         Workload     Agent      Address       Ports  Message
+postgresql-k8s/0*            maintenance  executing  10.1.172.204         (install) installing charm software
+postgresql-k8s/1             maintenance  executing  10.1.172.205         (install) installing charm software
+postgresql-k8s/2             maintenance  executing  10.1.172.206         (install) installing charm software
+self-signed-certificates/0*  active       idle       10.1.172.203         
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
