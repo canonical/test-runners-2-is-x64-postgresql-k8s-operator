@@ -1,0 +1,30 @@
+[33mWARNING [0m juju.client.connection:connection.py:654 RPC: Connection closed, reconnecting
+[33mWARNING [0m juju.client.connection:connection.py:578 Receiver: Connection closed, reconnecting
+[1m[31mERROR   [0m asyncio:base_events.py:1758 Task exception was never retrieved
+future: <Task finished name='Task-76' coro=<Connection.reconnect() done, defined at /home/ubuntu/actions-runner/_work/test-runners-2-is-x64-postgresql-k8s-operator/test-runners-2-is-x64-postgresql-k8s-operator/.tox/integration/lib/python3.10/site-packages/juju/client/connection.py:779> exception=OSError(9, 'Bad file descriptor')>
+Traceback (most recent call last):
+  File "/home/ubuntu/actions-runner/_work/test-runners-2-is-x64-postgresql-k8s-operator/test-runners-2-is-x64-postgresql-k8s-operator/.tox/integration/lib/python3.10/site-packages/juju/client/connection.py", line 788, in reconnect
+    res = await connector(
+  File "/home/ubuntu/actions-runner/_work/test-runners-2-is-x64-postgresql-k8s-operator/test-runners-2-is-x64-postgresql-k8s-operator/.tox/integration/lib/python3.10/site-packages/juju/client/connection.py", line 868, in _connect_with_login
+    await self._connect(endpoints)
+  File "/home/ubuntu/actions-runner/_work/test-runners-2-is-x64-postgresql-k8s-operator/test-runners-2-is-x64-postgresql-k8s-operator/.tox/integration/lib/python3.10/site-packages/juju/client/connection.py", line 817, in _connect
+    result = await task
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 571, in _wait_for_one
+    return f.result()  # May raise f.exception().
+  File "/home/ubuntu/actions-runner/_work/test-runners-2-is-x64-postgresql-k8s-operator/test-runners-2-is-x64-postgresql-k8s-operator/.tox/integration/lib/python3.10/site-packages/juju/client/connection.py", line 806, in _try_endpoint
+    return await self._open(endpoint, cacert)
+  File "/home/ubuntu/actions-runner/_work/test-runners-2-is-x64-postgresql-k8s-operator/test-runners-2-is-x64-postgresql-k8s-operator/.tox/integration/lib/python3.10/site-packages/juju/client/connection.py", line 427, in _open
+    return (await websockets.connect(
+  File "/home/ubuntu/actions-runner/_work/test-runners-2-is-x64-postgresql-k8s-operator/test-runners-2-is-x64-postgresql-k8s-operator/.tox/integration/lib/python3.10/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1103, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    sock.setblocking(False)
+OSError: [Errno 9] Bad file descriptor
+[1m[31mERROR   [0m juju.client.connection:connection.py:662 RPC: Automatic reconnect failed
+[32mINFO    [0m integration.test_trust:test_trust.py:75 Connection attempt failed: (0)
+Reason: Handshake status 404 Not Found -+-+- {'content-length': '18', 'content-type': 'text/plain; charset=utf-8', 'date': 'Fri, 04 Oct 2024 02:02:21 GMT'} -+-+- b'pod does not exist'
+
+[32mINFO    [0m integration.test_trust:test_trust.py:77 Retrying (1/20)...
+[32mINFO    [0m integration.test_trust:test_trust.py:72 Connection established: <class 'juju.client._definitions.FullStatus'>({'applications': {}, 'branches': {}, 'controller_timestamp': '2024-10-04T02:02:24.876600734Z', 'filesystems': [], 'machines': {}, 'model': <class 'juju.client._definitions.ModelStatusInfo'>({'available_version': '', 'cloud_tag': 'cloud-microk8s', 'meter_status': <class 'juju.client._definitions.MeterStatus'>({'color': '', 'message': '', 'unknown_fields': {}}), 'model_status': <class 'juju.client._definitions.DetailedStatus'>({'data': {}, 'err': None, 'info': '', 'kind': '', 'life': '', 'since': '2024-10-04T02:00:58.104044895Z', 'status': 'available', 'version': '', 'unknown_fields': {}}), 'name': 'test', 'region': 'localhost', 'sla': 'unsupported', 'type_': 'caas', 'version': '3.4.5', 'unknown_fields': {}}), 'offers': {}, 'relations': [], 'remote_applications': {}, 'storage': [], 'volumes': [], 'unknown_fields': {}})
