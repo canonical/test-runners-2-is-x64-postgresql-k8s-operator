@@ -1,0 +1,287 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:766 Connecting to existing model microk8s-localhost:test on unspecified cloud
+[32mINFO    [0m juju.model:model.py:2098 Deploying ch:amd64/jammy/s3-integrator-31
+[32mINFO    [0m juju.model:model.py:2098 Deploying ch:amd64/jammy/self-signed-certificates-155
+[32mINFO    [0m juju.model:model.py:2098 Deploying local:jammy/postgresql-k8s-0
+[33mWARNING [0m juju.model:model.py:1564 relate is deprecated and will be removed. Use integrate instead.
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [allocating] waiting: installing agent
+  postgresql-k8s-aws/1 [allocating] waiting: installing agent
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [allocating] waiting: agent initialising
+  postgresql-k8s-aws/1 [allocating] waiting: agent initialising
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] unknown: 
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for primary endpoint to be ready
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for cluster to start
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: Primary
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: Primary
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: Primary
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: Primary
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: Primary
+  postgresql-k8s-aws/1 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] active: Primary
+  postgresql-k8s-aws/1 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: Primary
+  postgresql-k8s-aws/1 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] maintenance: reconfiguring cluster
+  postgresql-k8s-aws/1 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m integration.test_backups:test_backups.py:88 deleting the previously created backups
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  02:38:21Z
+
+App                       Version  Status   Scale  Charm                     Channel        Rev  Address         Exposed  Message
+postgresql-k8s-aws        14.13    waiting      2  postgresql-k8s                             0  10.152.183.158  no       installing agent
+s3-integrator                      waiting      1  s3-integrator             latest/stable   31  10.152.183.143  no       installing agent
+self-signed-certificates           active       1  self-signed-certificates  latest/stable  155  10.152.183.122  no       
+
+Unit                         Workload  Agent  Address     Ports  Message
+postgresql-k8s-aws/0*        active    idle   10.1.53.12         Primary
+postgresql-k8s-aws/1         waiting   idle   10.1.53.13         awaiting for cluster to start
+s3-integrator/0*             blocked   idle   10.1.53.8          Missing parameters: ['access-key', 'secret-key']
+self-signed-certificates/0*  active    idle   10.1.53.9          
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+unit-postgresql-k8s-aws-1: 02:22:57 ERROR unit.postgresql-k8s-aws/1.juju-log certificates:4: Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:22:59 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:00 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:02 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:04 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:05 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:07 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:09 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:11 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:13 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:15 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:23:16 ERROR unit.postgresql-k8s-aws/0.juju-log certificates:4: Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:17 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:18 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:20 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:22 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:24 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:26 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:28 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:23:29 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:30 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:32 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:34 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:36 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:38 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:40 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:43 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:45 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:47 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:49 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:51 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:54 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:23:54 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:56 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:23:58 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:01 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:03 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:06 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:08 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:10 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:13 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:15 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:18 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:21 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:23 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:26 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:28 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:24:30 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:30 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:33 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:35 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:38 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:41 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:43 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:46 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:49 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:51 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:54 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:24:57 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:00 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:03 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:06 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:09 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:12 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:14 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:25:17 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:18 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:20 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:23 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:27 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:30 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:33 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:36 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:39 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:42 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:45 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:48 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:51 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:54 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:25:58 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:01 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:04 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:07 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:10 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:13 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:26:16 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:17 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:20 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:23 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:27 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:30 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:33 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:37 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:40 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:44 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:47 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:51 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:54 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:26:58 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:01 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:05 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:09 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:12 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:16 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:20 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:23 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:27:26 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:27 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:31 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:35 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:39 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:43 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:47 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:50 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:54 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:27:58 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:02 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:06 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:10 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:15 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:19 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:23 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:27 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:31 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:36 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:40 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:44 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:28:48 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:48 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:53 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:28:57 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:01 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:05 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:10 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:14 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:18 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:23 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:27 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:31 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:36 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:40 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:45 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:49 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:54 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:29:58 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:03 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:07 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:12 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:16 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:30:20 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:21 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:25 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:30 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:34 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:39 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:44 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:48 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:53 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:30:58 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:31:02 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:31:07 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-1: 02:31:12 ERROR unit.postgresql-k8s-aws/1.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
