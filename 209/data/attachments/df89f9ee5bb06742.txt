@@ -1,0 +1,221 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:766 Connecting to existing model microk8s-localhost:test on unspecified cloud
+[32mINFO    [0m juju.model:model.py:2098 Deploying ch:amd64/jammy/s3-integrator-31
+[32mINFO    [0m juju.model:model.py:2098 Deploying ch:amd64/jammy/self-signed-certificates-155
+[32mINFO    [0m juju.model:model.py:2098 Deploying local:jammy/postgresql-k8s-0
+[33mWARNING [0m juju.model:model.py:1564 relate is deprecated and will be removed. Use integrate instead.
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [allocating] waiting: installing agent
+  postgresql-k8s-aws/1 [allocating] waiting: installing agent
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] maintenance: installing charm software
+  postgresql-k8s-aws/1 [executing] maintenance: installing charm software
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] unknown: 
+  postgresql-k8s-aws/1 [executing] unknown: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] unknown: 
+  postgresql-k8s-aws/1 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] unknown: 
+  postgresql-k8s-aws/1 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] unknown: 
+  postgresql-k8s-aws/1 [idle] maintenance: reconfiguring cluster
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] unknown: 
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [executing] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [executing] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: awaiting for member to start
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: Awaiting restart operation
+  postgresql-k8s-aws/1 [idle] active: Primary
+[33mWARNING [0m juju.model:model.py:1564 relate is deprecated and will be removed. Use integrate instead.
+[32mINFO    [0m integration.helpers:helpers.py:850 configuring S3 integrator for AWS
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [executing] active: Primary
+  s3-integrator/0 [executing] blocked: Missing parameters: ['access-key', 'secret-key']
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [idle] maintenance: initialising stanza
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [idle] maintenance: initialising stanza
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [executing] maintenance: checking stanza
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [executing] maintenance: checking stanza
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] active: 
+  postgresql-k8s-aws/1 [executing] maintenance: checking stanza
+  s3-integrator/0 [executing] active: 
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] waiting: Awaiting restart operation
+  postgresql-k8s-aws/1 [idle] maintenance: initialising stanza
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [executing] active: 
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [executing] maintenance: initialising stanza
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] maintenance: Executing restart operation
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m integration.helpers:helpers.py:871 creating a table in the database
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  s3-integrator/0 [idle] active: 
+  self-signed-certificates/0 [idle] active: 
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m integration.helpers:helpers.py:882 creating a backup
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  s3-integrator/0 [idle] active: 
+  self-signed-certificates/0 [idle] active: 
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [executing] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m integration.helpers:helpers.py:891 listing the available backups
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  s3-integrator/0 [idle] active: 
+  self-signed-certificates/0 [idle] active: 
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m integration.helpers:helpers.py:900 creating a second table in the database
+[32mINFO    [0m integration.helpers:helpers.py:907 creating a backup
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  s3-integrator/0 [idle] active: 
+  self-signed-certificates/0 [idle] active: 
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m integration.helpers:helpers.py:918 listing the available backups
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  s3-integrator/0 [idle] active: 
+  self-signed-certificates/0 [idle] active: 
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m integration.helpers:helpers.py:927 creating a second table in the database
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws (waiting for exactly 1 units, current : 2)
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws (waiting for exactly 1 units, current : 2)
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: Primary
+[32mINFO    [0m integration.helpers:helpers.py:943 restoring the backup
+[32mINFO    [0m integration.helpers:helpers.py:960 checking that the backup was correctly restored
+[32mINFO    [0m integration.helpers:helpers.py:992 restoring the backup
+[32mINFO    [0m integration.helpers:helpers.py:1009 checking that the backup was correctly restored
+[32mINFO    [0m integration.test_backups:test_backups.py:124 removing the TLS relation
+[32mINFO    [0m integration.test_backups:test_backups.py:141 ensuring that the replication is working correctly
+[32mINFO    [0m integration.test_backups:test_backups.py:171 performing a switchover from postgresql-k8s-aws/0 to postgresql-k8s-aws/1
+[32mINFO    [0m integration.test_backups:test_backups.py:174 checking that the primary unit has changed
+[32mINFO    [0m integration.test_backups:test_backups.py:183 listing the available backups to ensure that the stanza is working correctly
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  s3-integrator/0 [idle] active: 
+  self-signed-certificates/0 [idle] active: 
+  postgresql-k8s-aws/0 [executing] blocked: Move restored cluster to another S3 bucket
+  postgresql-k8s-aws/1 [executing] blocked: Move restored cluster to another S3 bucket
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  postgresql-k8s-aws/0 [idle] active: 
+  postgresql-k8s-aws/1 [idle] active: Primary
+[32mINFO    [0m integration.test_backups:test_backups.py:88 deleting the previously created backups
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  02:46:34Z
+
+App            Version  Status  Scale  Charm          Channel        Rev  Address         Exposed  Message
+s3-integrator           active      1  s3-integrator  latest/stable   31  10.152.183.190  no       
+
+Unit              Workload  Agent  Address    Ports  Message
+s3-integrator/0*  active    idle   10.1.53.8         
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+unit-postgresql-k8s-aws-0: 02:22:05 ERROR unit.postgresql-k8s-aws/0.juju-log certificates:4: Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:07 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:08 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:09 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:11 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:12 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:14 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:15 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:17 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:18 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:20 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:21 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:23 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:24 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:26 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:27 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:29 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:30 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:32 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:34 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:35 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:37 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:39 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:41 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:43 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:44 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:46 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:22:48 ERROR unit.postgresql-k8s-aws/0.juju-log Cannot push TLS certificates: <ops.pebble.ConnectionError ("Could not connect to Pebble: socket not found at '/charm/containers/postgresql/pebble.socket' (container restarted?)",)>
+unit-postgresql-k8s-aws-0: 02:40:07 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:07 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:22 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:22 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:31 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:31 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:41 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:41 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:51 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:40:51 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:41:02 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:41:02 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:41:25 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:41:25 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:41:58 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:41:58 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:07 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:07 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:15 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:15 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:27 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:27 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:38 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:38 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:53 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service get failed: services "postgresql-k8s-aws" not found
+unit-postgresql-k8s-aws-0: 02:42:53 ERROR unit.postgresql-k8s-aws/0.juju-log Kubernetes service patch failed: services "postgresql-k8s-aws" not found
+unit-self-signed-certificates-0: 02:44:01 ERROR juju.worker.dependency "uniter" manifold worker returned unexpected error: relation scope id "f6a10e9e-2850-405d-80d1-3a3487328aa1:r#4#postgresql-k8s-aws": settings f6a10e9e-2850-405d-80d1-3a3487328aa1:r#4#postgresql-k8s-aws not found (not found)
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
