@@ -1,0 +1,21 @@
+[32mINFO    [0m integration.test_backups:test_backups.py:88 deleting the previously created backups
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  03:20:46Z
+
+App                       Version  Status   Scale  Charm                     Channel        Rev  Address         Exposed  Message
+postgresql-k8s-gcp        14.13    active       2  postgresql-k8s                             0  10.152.183.169  no       
+s3-integrator                      waiting      1  s3-integrator             latest/stable   31  10.152.183.89   no       installing agent
+self-signed-certificates           active       1  self-signed-certificates  latest/stable  155  10.152.183.18   no       
+
+Unit                         Workload  Agent  Address     Ports  Message
+postgresql-k8s-gcp/0         active    idle   10.1.53.12         
+postgresql-k8s-gcp/1*        active    idle   10.1.53.13         Primary
+s3-integrator/0*             blocked   idle   10.1.53.8          Missing parameters: ['access-key', 'secret-key']
+self-signed-certificates/0*  active    idle   10.1.53.9          
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
