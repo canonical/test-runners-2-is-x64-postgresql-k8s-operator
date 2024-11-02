@@ -1,0 +1,25 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  02:01:11Z
+
+App                  Version  Status  Scale  Charm                Channel      Rev  Address         Exposed  Message
+postgresql-k8s       14.13    active      3  postgresql-k8s                      0  10.152.183.104  no       
+postgresql-test-app           active      1  postgresql-test-app  latest/edge  275  10.152.183.241  no       
+
+Unit                    Workload  Agent      Address     Ports  Message
+postgresql-k8s/0        active    executing  10.1.53.11         (get-primary) 
+postgresql-k8s/1        active    idle       10.1.53.12         
+postgresql-k8s/2*       active    idle       10.1.53.13         Primary
+postgresql-test-app/0*  active    idle       10.1.53.14         
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+unit-postgresql-k8s-0: 01:56:33 ERROR unit.postgresql-k8s/0.juju-log failed to get primary with error RetryError[<Future at 0x7402064bcfa0 state=finished raised ConnectionError>]
+unit-postgresql-k8s-1: 01:56:35 ERROR unit.postgresql-k8s/1.juju-log failed to get primary with error RetryError[<Future at 0x783308fd8fd0 state=finished raised ConnectionError>]
+unit-postgresql-k8s-2: 01:57:14 ERROR unit.postgresql-k8s/2.juju-log failed to get primary with error RetryError[<Future at 0x75d796f532e0 state=finished raised ConnectionError>]
+unit-postgresql-k8s-0: 01:57:20 ERROR unit.postgresql-k8s/0.juju-log failed to get primary with error RetryError[<Future at 0x7f3fb6224ca0 state=finished raised ConnectionError>]
+unit-postgresql-k8s-1: 01:57:22 ERROR unit.postgresql-k8s/1.juju-log failed to get primary with error RetryError[<Future at 0x7111f6ae93f0 state=finished raised ConnectionError>]
+unit-postgresql-k8s-1: 01:58:52 ERROR unit.postgresql-k8s/1.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...

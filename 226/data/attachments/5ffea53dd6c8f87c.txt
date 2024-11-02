@@ -1,0 +1,22 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  02:02:26Z
+
+App                  Version  Status   Scale  Charm                Channel      Rev  Address         Exposed  Message
+postgresql-k8s                waiting      3  postgresql-k8s                      0  10.152.183.224  no       installing agent
+postgresql-test-app           active       1  postgresql-test-app  latest/edge  275  10.152.183.151  no       
+
+Unit                    Workload  Agent      Address     Ports  Message
+postgresql-k8s/0        unknown   idle       10.1.53.11         
+postgresql-k8s/1        unknown   idle       10.1.53.12         
+postgresql-k8s/2*       error     executing  10.1.53.13         (get-primary) unknown container reason "ImagePullBackOff": Back-off pulling image "ghcr.io/canonical/charmed-postgres...
+postgresql-test-app/0*  active    idle       10.1.53.14         
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+unit-postgresql-k8s-0: 02:01:20 ERROR unit.postgresql-k8s/0.juju-log failed to get primary with error RetryError[<Future at 0x793d496ecf10 state=finished raised ConnectionError>]
+unit-postgresql-k8s-1: 02:01:22 ERROR unit.postgresql-k8s/1.juju-log failed to get primary with error RetryError[<Future at 0x76c99c6c0f40 state=finished raised ConnectionError>]
+unit-postgresql-k8s-2: 02:02:25 ERROR unit.postgresql-k8s/2.juju-log failed to get primary with error RetryError[<Future at 0x7ee721169780 state=finished raised ConnectionError>]
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
