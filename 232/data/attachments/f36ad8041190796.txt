@@ -1,0 +1,53 @@
+[32mINFO    [0m juju.model:model.py:2098 Deploying local:jammy/postgresql-k8s-3
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  test-storage-postgresql-k8s/0 [allocating] waiting: agent initialising
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  test-storage-postgresql-k8s/0 [executing] waiting: awaiting for cluster to start
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  test-storage-postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  test-storage-postgresql-k8s/0 [executing] waiting: awaiting for primary endpoint to be ready
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  test-storage-postgresql-k8s/0 [idle] active: Primary
+[32mINFO    [0m juju.model:model.py:2972 Waiting for model:
+  test-storage-postgresql-k8s/0 [idle] active: Primary
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  03:00:24Z
+
+App                          Version  Status  Scale  Charm           Channel  Rev  Address         Exposed  Message
+postgresql-k8s               14.13    active      3  postgresql-k8s             2  10.152.183.27   no       
+test-storage-postgresql-k8s  14.13    active      1  postgresql-k8s             3  10.152.183.155  no       
+
+Unit                            Workload  Agent  Address     Ports  Message
+postgresql-k8s/0*               active    idle   10.1.53.32         Primary
+postgresql-k8s/1                active    idle   10.1.53.33         
+postgresql-k8s/2                active    idle   10.1.53.34         
+test-storage-postgresql-k8s/0*  active    idle   10.1.53.36         Primary
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+unit-postgresql-k8s-0: 02:24:55 ERROR unit.postgresql-k8s/0.juju-log Cluster upgrade failed, ensure pre-upgrade checks are ran first.
+controller-0: 02:30:21 ERROR juju.worker.caasapplicationprovisioner.runner exited "postgresql-k8s": updating filesystem information for postgresql-k8s: cannot set info for filesystem attachment 2:postgresql-k8s/2: state changing too quickly; try again soon
+controller-0: 02:30:48 ERROR juju.worker.caasapplicationprovisioner.runner exited "postgresql-k8s": finding filesystem info for postgresql-k8s-pgdata-e4e641b6: unable to get persistent volume claim: k8s: persistentvolumeclaims "postgresql-k8s-pgdata-e4e641b6-postgresql-k8s-2" not found
+unit-postgresql-k8s-1: 02:39:24 ERROR unit.postgresql-k8s/1.juju-log Cluster upgrade failed, ensure pre-upgrade checks are ran first.
+unit-postgresql-k8s-1: 02:39:24 ERROR unit.postgresql-k8s/1.juju-log Kubernetes service get failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-1: 02:39:24 ERROR unit.postgresql-k8s/1.juju-log Kubernetes service patch failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-0: 02:40:21 ERROR unit.postgresql-k8s/0.juju-log Kubernetes service get failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-0: 02:40:21 ERROR unit.postgresql-k8s/0.juju-log Kubernetes service patch failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-2: 02:41:49 ERROR unit.postgresql-k8s/2.juju-log Kubernetes service get failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-2: 02:41:49 ERROR unit.postgresql-k8s/2.juju-log Kubernetes service patch failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-0: 02:44:38 ERROR unit.postgresql-k8s/0.juju-log Kubernetes service get failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-0: 02:44:38 ERROR unit.postgresql-k8s/0.juju-log Kubernetes service patch failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-1: 02:45:15 ERROR unit.postgresql-k8s/1.juju-log Kubernetes service get failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-1: 02:45:15 ERROR unit.postgresql-k8s/1.juju-log Kubernetes service patch failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-2: 02:46:19 ERROR unit.postgresql-k8s/2.juju-log Kubernetes service get failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-2: 02:46:19 ERROR unit.postgresql-k8s/2.juju-log Kubernetes service patch failed: services "postgresql-k8s" not found
+unit-postgresql-k8s-1: 02:49:39 ERROR unit.postgresql-k8s/1.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+unit-postgresql-k8s-2: 02:49:39 ERROR unit.postgresql-k8s/2.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+unit-postgresql-k8s-1: 02:49:48 ERROR unit.postgresql-k8s/1.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+unit-postgresql-k8s-2: 02:49:49 ERROR unit.postgresql-k8s/2.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+controller-0: 02:52:00 ERROR juju.worker.caasapplicationprovisioner.runner exited "postgresql-k8s": cannot scale dying application to 0: application "postgresql-k8s" not found
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
