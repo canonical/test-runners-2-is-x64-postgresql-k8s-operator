@@ -1,0 +1,36 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  03:25:51Z
+
+App                  Version  Status   Scale  Charm                Channel      Rev  Address         Exposed  Message
+another-application           active       1  postgresql-test-app  latest/edge  295  10.152.183.177  no       received database credentials of the first database
+another-database     14.13    active       3  postgresql-k8s                      0  10.152.183.210  no       
+database             14.13    waiting      3  postgresql-k8s                      1  10.152.183.124  no       installing agent
+postgresql-test-app           active       2  postgresql-test-app  latest/edge  295  10.152.183.117  no       
+
+Unit                    Workload  Agent      Address     Ports  Message
+another-application/0*  active    idle       10.1.53.22         received database credentials of the first database
+another-database/0*     active    idle       10.1.53.19         Primary
+another-database/1      active    idle       10.1.53.21         
+another-database/2      active    idle       10.1.53.20         
+database/0*             waiting   idle       10.1.53.15         Updating extensions
+database/1              waiting   executing  10.1.53.23         Updating extensions
+database/2              waiting   executing  10.1.53.24         Updating extensions
+postgresql-test-app/0*  active    idle       10.1.53.8          
+postgresql-test-app/1   active    idle       10.1.53.9          
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+unit-another-database-2: 02:42:28 ERROR unit.another-database/2.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+unit-another-database-2: 02:43:01 ERROR unit.another-database/2.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+unit-database-0: 02:48:19 ERROR unit.database/0.juju-log Kubernetes service get failed: services "database" not found
+unit-database-0: 02:48:19 ERROR unit.database/0.juju-log Kubernetes service patch failed: services "database" not found
+unit-database-0: 02:48:38 ERROR unit.database/0.juju-log Kubernetes service get failed: services "database" not found
+unit-database-0: 02:48:38 ERROR unit.database/0.juju-log Kubernetes service patch failed: services "database" not found
+unit-database-0: 02:48:57 ERROR unit.database/0.juju-log Kubernetes service get failed: services "database" not found
+unit-database-0: 02:48:57 ERROR unit.database/0.juju-log Kubernetes service patch failed: services "database" not found
+unit-database-0: 02:49:08 ERROR unit.database/0.juju-log Kubernetes service get failed: services "database" not found
+unit-database-0: 02:49:08 ERROR unit.database/0.juju-log Kubernetes service patch failed: services "database" not found
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
