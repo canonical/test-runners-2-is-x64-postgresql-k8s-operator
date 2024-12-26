@@ -1,0 +1,27 @@
+[32mINFO    [0m integration.ha_tests.test_async_replication:test_async_replication.py:86 Destroying second model
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller          Cloud/Region        Version  SLA          Timestamp
+test   microk8s-localhost  microk8s/localhost  3.4.5    unsupported  02:33:08Z
+
+App                  Version  Status  Scale  Charm                Channel      Rev  Address         Exposed  Message
+postgresql-k8s       14.13    active      3  postgresql-k8s                      0  10.152.183.229  no       
+postgresql-test-app           active      1  postgresql-test-app  latest/edge  305  10.152.183.81   no       received database credentials of the first database
+
+Unit                    Workload  Agent  Address     Ports  Message
+postgresql-k8s/0        active    idle   10.1.53.12         
+postgresql-k8s/1        active    idle   10.1.53.14         
+postgresql-k8s/2*       active    idle   10.1.53.13         Primary
+postgresql-test-app/0*  active    idle   10.1.53.18         received database credentials of the first database
+
+Offer              Application     Charm           Rev  Connected  Endpoint           Interface         Role
+replication        postgresql-k8s  postgresql-k8s  0    0/0        replication        postgresql_async  requirer
+replication-offer  postgresql-k8s  postgresql-k8s  0    0/0        replication-offer  postgresql_async  provider
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+unit-postgresql-k8s-1: 02:16:52 ERROR unit.postgresql-k8s/1.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+unit-postgresql-k8s-1: 02:17:57 ERROR unit.postgresql-k8s/1.juju-log pgdata folder not found in /var/lib/postgresql/data/pgdata
+unit-postgresql-k8s-1: 02:29:15 ERROR juju.worker.dependency "uniter" manifold worker returned unexpected error: relation scope id "20748c5c-6a98-4ba7-82ae-2a37d1fb7f0f:r#5#remote-5e2f33925dfa4f0a8a6443299c1b40da": settings 20748c5c-6a98-4ba7-82ae-2a37d1fb7f0f:r#5#remote-5e2f33925dfa4f0a8a6443299c1b40da not found (not found)
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
